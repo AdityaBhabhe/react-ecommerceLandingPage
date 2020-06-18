@@ -1,0 +1,65 @@
+main{
+    width: 100%;
+    text-align: center;
+    background-color: #fcfaff;
+}
+
+.main-wrapper{
+    padding : 5% 5% ;
+}
+
+.product-section{
+    text-align: left;
+}
+
+.product-card {
+    width: 100%
+}
+
+.product-wrapper a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #0055a6;
+}
+
+.product-wrapper p strong{
+    color : #232323;
+}
+
+.product-wrapper p , hr{
+    color : #777777;
+}
+
+
+.button{
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    border: none;
+    background-color: #0055a6;
+    color: #ffffff;
+}
+
+.search{
+    margin-top: 5px;
+}
+
+select{
+    padding: 0.4rem;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+
+.filter-icon{
+    margin-top: 3px;
+}
+
+form{
+    width: 100%;
+}
+
+.filter-list{
+    padding-bottom: 2px;
+}
+
