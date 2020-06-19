@@ -12,8 +12,17 @@ const Header = () => {
                         <li><button><i class="las la-bars"></i></button></li>
                         <li><button className="search-button"><i class="las la-search"></i></button></li>
                         <li><input type='text' placeholder="search here....."></input></li>
-                        <li><button><i class="las la-bell"></i></button></li>
+                        <li><button className="bell-notification"><i class="las la-bell"></i></button></li>
                         <li className="account-logo"><button>JA</button></li>
+                        <li className="account-login">
+                            <form>
+                                <select name="Login Details">
+                                    <option value="" disabled selected hidden>James Anderson</option>
+                                    <option value="profile">Profile</option>
+                                    <option value="logout">Logout</option>
+                                </select>
+                            </form>
+                        </li>
                     </ul>
                 </div>
                 

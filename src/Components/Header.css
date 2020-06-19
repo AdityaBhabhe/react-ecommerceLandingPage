@@ -1,10 +1,12 @@
 header{
     width: 100%;
     height: 72px;
+    color: #cccccc;
 }
 
 .header-wrapper{
-    padding: 5% 5%;
+    height: 100%;
+    padding: 25px 2%;
 }
 
 ul{
@@ -21,13 +23,32 @@ li i{
     font-size: 1.5rem;
 }
 
-.header-list li:last-child{
-    float: right;
-}
-.account-logo{
-    padding: 0.5rem 0.4rem;
+
+.account-logo , .bell-notification{
     border-radius: 50%;
-    background-color : #cccccc;
+    background-color : none;
+}
+
+.account-logo {
+    padding: 0.5rem 0.5rem;
+    background-color : lightblue;
+    margin-left: auto;
+}
+
+.account-logo button{
+    color: #0055a6;
+}
+
+.account-login select{
+    border: none;
+}
+.bell-notification{
+    border: 1px solid #cccccc ;
+    padding: 0.2rem 0.2rem;
+}
+
+.bell-notification i{
+    color: #777777;
 }
 
 input{
@@ -39,4 +60,16 @@ button{
 padding: 0;
 border: none;
 background: none;
+}
+
+.search-button i{
+    font-size: 15px;
+}
+
+@media only screen and (min-width:900px){
+    header{
+        position: relative;
+        left: 20%;
+        width: 80%;
+    }
 }

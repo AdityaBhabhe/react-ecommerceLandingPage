@@ -1,0 +1,31 @@
+@media only screen and (max-width:899px){
+    .side-nav{
+        display: none;
+    }
+}
+@media only screen and (min-width:900px){
+    .side-nav{
+        position: fixed;
+        height: 100%;
+        width: 20%;
+        background-color: #0055a6;
+    }
+
+    .side-nav-wrapper{
+        padding-left: 20%;
+    }
+
+    .menu li{
+        display: block;
+        color: white;
+        padding: 10px 0px;
+    }
+
+    .menu p{
+        color: white;
+    }
+
+    .menu li i{
+        color:lightblue;
+    }
+}

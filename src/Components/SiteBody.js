@@ -11,7 +11,8 @@ const SiteBody = () => {
                         <li className="filter-icon"><i class="las la-filter"></i>Filter</li>
                         <li>
                             <form>
-                                <select name="product">
+                                <select name="product" required>
+                                    <option value="none" disabled selected hidden>Product</option>
                                     <option value="avio 200 Cross-Flow Spectrometer">Avio 200 Cross-Flow Spectrometer</option>
                                     <option value="spectrum two ft - ir">Spectrum Two FT - IR</option>
                                     <option value="lambda 365 spectrometer uv express" selected>LAMBDA 365 Spectrometer UV Express</option>
@@ -21,6 +22,7 @@ const SiteBody = () => {
                         <li>
                         <form>
                                 <select name="Model Series">
+                                    <option value="" disabled selected hidden>Choose a drink</option>
                                     <option value="avio 200">AVIO 200</option>
                                     <option value="spectrum two">SPECTRUM TWO</option>
                                     <option value="lambda x50" selected>LAMBDA X50</option>
@@ -30,6 +32,7 @@ const SiteBody = () => {
                         <li>
                         <form>
                                 <select name="Icecream Flavours">
+                                    <option value="" disabled selected hidden>Choose a drink</option>
                                     <option value="icpno790010">ICPN0790010</option>
                                     <option value="irl1600300">IRL1600300</option>
                                     <option value="uvsn4100020" selected>UVSN4100020</option>
@@ -38,59 +41,60 @@ const SiteBody = () => {
                         </li>
                         <li>
                         <form>
-                                <select name="Icecream Flavours">
+                                <select name="Location">
+                                    <option value="" disabled selected hidden>Choose a drink</option>
                                     <option value="mohali">MOHALI,PUNJAB</option>
                                     <option value="bangalore">BANGALORE</option>
                                     <option value="vadodara" selected>VADODARA,GUJARAT</option>
                                 </select>
                             </form>
                         </li>
-                        <button className="button search">Search</button>
+                        <button className="button search">SEARCH</button>
                     </ul>
                 </div>
                 <div className="product-section">
                     <div className="product-card">
                         <div className="product-wrapper">
-                            <img src="" alt=""></img>        
+                            <div className="product-images"></div>      
                             <h2><a href="#" >Avio 200 Cross-Flow Spectrometer</a></h2>
                             <hr></hr>
                             <p><strong>Model Number: </strong>ICPN0790010</p>
                             <p><strong>Model Series: </strong>AVIO 200</p>
                             <p><strong>Location: </strong>BANGALORE</p>
-                            <button className="button">VIEW DETAILS</button>
+                            <button className="button details">VIEW DETAILS</button>
                         </div>
                     </div>
                     <div className="product-card">
                         <div className="product-wrapper">
-                            <img src="" alt=""></img>        
+                            <div className="product-images"></div>        
                             <h2><a href="#">Spectrum Two FT - IR</a></h2>
                             <hr></hr>
                             <p><strong>Model Number: </strong>IRL1600300</p>
                             <p><strong>Model Series: </strong>SPECTRUM TWO</p>
                             <p><strong>Location: </strong>VADODARA,GUJARAT</p>
-                            <button className="button">VIEW DETAILS</button>
+                            <button className="button details">VIEW DETAILS</button>
                         </div>
                     </div>
                     <div className="product-card">
                         <div className="product-wrapper">
-                            <img src="" alt=""></img>        
+                            <div className="product-images"></div>      
                             <h2><a href="#">LAMBDA 365 Spectrometer UV Express</a></h2>
                             <hr></hr>
                             <p><strong>Model Number: </strong>ICPN0790010</p>
                             <p><strong>Model Series: </strong>LAMBDA X50</p>
                             <p><strong>Location: </strong>BANGALORE</p>
-                            <button className="button">VIEW DETAILS</button>
+                            <button className="button details">VIEW DETAILS</button>
                         </div>
                     </div>  
                     <div className="product-card">
                         <div className="product-wrapper">
-                            <img src="" alt=""></img>        
+                            <div className="product-images"></div>        
                             <h2><a href="#">LAMBDA 365 Spectrometer UV Express</a></h2>
                             <hr></hr>
                             <p><strong>Model Number: </strong>UVSN4100020</p>
                             <p><strong>Model Series: </strong>LAMBDA X50</p>
                             <p><strong>Location: </strong>MOHALI,PUNJAB</p>
-                            <button className="button">VIEW DETAILS</button>
+                            <button className="button details">VIEW DETAILS</button>
                         </div>
                     </div>      
                 </div>
