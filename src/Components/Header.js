@@ -8,10 +8,12 @@ const Header = () => {
         <header>
             <div className="header-wrapper">
                 <div className="header-list">
-                    <ul>
+                    <ul className='search-list'>
                         <li><button><i class="las la-bars"></i></button></li>
                         <li><button className="search-button"><i class="las la-search"></i></button></li>
                         <li><input type='text' placeholder="search here....."></input></li>
+                    </ul>
+                    <ul className='account-list'>
                         <li><button className="bell-notification"><i class="las la-bell"></i></button></li>
                         <li className="account-logo"><button>JA</button></li>
                         <li className="account-login">

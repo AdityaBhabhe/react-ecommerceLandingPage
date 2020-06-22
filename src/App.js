@@ -6,7 +6,7 @@ import SideNav from './Components/SideNav';
 
 function App() {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Header />
       <SiteBody /> 
       <SideNav />     

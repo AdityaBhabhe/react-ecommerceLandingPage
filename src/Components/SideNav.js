@@ -4,8 +4,11 @@ import './SideNav.css'
 const SideNav = () => {
     return(
         <div className='side-nav'>
-            <div className='side-nav-wrapper'>
+            <div className='company-logo-wrapper'>
                 <div className="company-logo"></div>
+            </div>
+            <hr></hr>
+            <div className="menu-wrapper">    
                 <div className='menu'>
                     <p>Menu</p>
                     <ul className="menu-list">
@@ -29,7 +32,7 @@ const SideNav = () => {
                                     <option value="french" selected>French</option>
                                 </select>
                     </form>
-                    <a>CONTACT US</a>
+                    <button>CONTACT US</button>
                 </div>
             </div>
         </div>

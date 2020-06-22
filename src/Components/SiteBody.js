@@ -53,7 +53,63 @@ const SiteBody = () => {
                     </ul>
                 </div>
                 <div className="product-section">
-                    <div className="product-card">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="product-img"></div>
+                                    <h4 class="card-title"><a>Avio 200 Cross-Flow Spectrometer</a></h4>
+                                    <hr></hr>
+                                    <p class="card-text"><strong>Model Number </strong> : <span>ICPNo790010</span></p>
+                                    <p class="card-text"><strong>Model Series</strong> : <span>AVIO 200</span></p>
+                                    <p class="card-text"> <strong>Location</strong> : <span>BANGALORE</span></p>
+                                    <button type="button" class="btn btn-primary btn-rounded details-button">VIEW DETAILS</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card">
+                                <div class="card-body">
+                                    <div class="product-img"></div>
+                                    <h4 class="card-title"><a>Spectrum Two FT-IR</a></h4>
+                                    <hr></hr>
+                                    <p class="card-text"> <strong>Model Number</strong> : <span>IRL1600300</span></p>
+                                    <p class="card-text"><strong>Model Series</strong> : <span>SPECTRUM 2</span></p>
+                                    <p class="card-text"> <strong>Location</strong> : <span>BANGALORE</span></p>
+                                    <button type="button" class="btn btn-primary btn-rounded details-button">VIEW DETAILS</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card">
+                                <div class="card-body">
+                                    <div class="product-img"></div>
+                                    <h4 class="card-title"><a>LAMBDA 365 Spectrometer UV Express</a></h4>
+                                    <hr></hr>
+                                    <p class="card-text"> <strong>Model Number</strong> : <span>UVSN4100020</span></p>
+                                    <p class="card-text"><strong>Model Series</strong> : <span>LAMBDA X50</span></p>
+                                    <p class="card-text"><strong>Location</strong> : <span>BHOPAL</span></p>
+                                    <button type="button" class="btn btn-primary btn-rounded details-button">VIEW DETAILS</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card">
+                                <div class="card-body">
+                                    <div class="product-img"></div>
+                                    <h4 class="card-title"><a>LAMBDA 365 Spectrometer UV Express</a></h4>
+                                    <hr></hr>
+                                    <p class="card-text"><strong>Model Number </strong> : <span>UVSN4100020</span></p>
+                                    <p class="card-text"><strong>Model Series</strong> : <span>LAMBDA X50</span></p>
+                                    <p class="card-text"><strong>Location</strong> : <span>MOHALI,PUNJAB</span></p>
+                                    <button type="button" class="btn btn-primary btn-rounded details-button">VIEW DETAILS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+      
+                    
+                    {/* <div className="product-card">
                         <div className="product-wrapper">
                             <div className="product-images"></div>      
                             <h2><a href="#" >Avio 200 Cross-Flow Spectrometer</a></h2>
@@ -63,8 +119,8 @@ const SiteBody = () => {
                             <p><strong>Location: </strong>BANGALORE</p>
                             <button className="button details">VIEW DETAILS</button>
                         </div>
-                    </div>
-                    <div className="product-card">
+                    </div> */}
+                    {/* <div className="product-card">
                         <div className="product-wrapper">
                             <div className="product-images"></div>        
                             <h2><a href="#">Spectrum Two FT - IR</a></h2>
@@ -96,7 +152,7 @@ const SiteBody = () => {
                             <p><strong>Location: </strong>MOHALI,PUNJAB</p>
                             <button className="button details">VIEW DETAILS</button>
                         </div>
-                    </div>      
+                    </div>       */}
                 </div>
             </div>
             

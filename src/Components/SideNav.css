@@ -4,28 +4,79 @@
     }
 }
 @media only screen and (min-width:900px){
+    
     .side-nav{
         position: fixed;
+        top: 0;
         height: 100%;
-        width: 20%;
+        width: 19%;
         background-color: #0055a6;
     }
 
-    .side-nav-wrapper{
-        padding-left: 20%;
+    /* .menu-wrapper{
+        padding: 10px 10% 0 14%;
+    } */
+
+    .company-logo-wrapper{
+        padding: 10px 10% 0 14%;
+    }
+
+    .company-logo{
+        height: 125px;
+        width: 100%;
+        border-bottom: 1px solid darkblue;
+        background-color: darkslategray;
+        padding-bottom: 20px;
     }
 
     .menu li{
         display: block;
         color: white;
-        padding: 10px 0px;
+        padding: 6px 10% 6px 14%;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin: 0;
     }
 
+    .menu li:hover{
+        background-color: darkturquoise;
+        color:  #0055a6;
+    }
+  
     .menu p{
         color: white;
+        padding: 10px 0 10px 14%;
+        font-weight: 500;
     }
 
     .menu li i{
         color:lightblue;
+        margin-right: 7%;
+    }
+
+    .contact-box{
+        margin-top: 60px;
+        padding: 10px 14% 10px 14%;
+    }
+
+    .contact-box select{
+        width: 100%;
+        border-radius: 30px;
+        padding: 5px 10%;
+        background-color:#0055a6;
+        color: white;
+        border: 1px solid white;
+        font-weight: 500;
+        margin-bottom: 13px;
+    }
+
+    .contact-box button{
+        width: 100%;
+        padding: 7px 28.5%;
+        border-radius: 30px;
+        background-color: white;
+        color:#0055a6 !important;
+        font-weight: 500;
+        font-size: 0.6rem;
     }
 }

@@ -8,8 +8,14 @@ main{
     padding : 5% 1% ;
 }
 
-.product-section{
+.filter-list{
     text-align: left;
+    padding-bottom: 2px;
+    margin-left: 1.6%;
+}
+
+.product-section{
+    /* text-align: left; */
     margin-top: 20px;
 }
 
@@ -44,6 +50,67 @@ main{
     background-color: #777777;
 }
 
+.row{
+    width: 100% !important;
+    margin: 0;
+}
+
+.card{
+    margin-bottom: 20px;
+    text-align: left;
+    border: none;
+    position: relative;
+    height: 375px;
+}
+
+.card-body hr{
+    font-size: 3px;
+}
+
+.card-title a , .card-text{
+    font-size: 0.8rem !important;
+}
+
+.card-title{
+    margin-bottom: 30px;
+    color: #0055a6;
+    font-weight: 500 !important;
+}
+
+.card-text{
+    color: #232323 !important;
+    line-height: 10px;
+}
+
+.card-text span{
+    color: #777777 !important;
+}
+
+.product-img{
+    width: 100%;
+    height: 125px;
+    background-color: lightslategray;
+}
+
+.details-button{
+    border-radius: 25px;
+    background-color: white !important;
+    color: #0055a6;
+    border: 1.5px solid #0055a6;
+    padding: 0.5rem 1.6rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, 0%);
+}
+
+.details-button:hover{
+    color: white !important;
+    background-color:#0055a6 !important;
+}
+
 
 .button{
     text-align: center;
@@ -71,11 +138,11 @@ main{
     color: #0055a6;
     font-weight: 600;
 }
-
+/* 
 .details:hover{
   color:  #ffffff;
   background-color: #0055a6; 
-}
+} */
 
 select{
     font-size: 0.7rem;
@@ -100,8 +167,22 @@ form{
     width: 100%;
 }
 
-.filter-list{
-    padding-bottom: 2px;
+
+
+@media only screen and (max-width:899px){
+    .filter-list{
+        text-align: center;
+        margin:0;
+        padding: 8px 5%;
+    }
+
+    .filter-list li{
+        margin: 0;
+        width: 100%;
+    }
+    .filter-list select{
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width:900px){
